@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>眼里都是你</title>
+    <style type="text/css">
+        img {
+            width: 420px;
+            height: 580px;
+        }
+
+        div {
+            width: 420px;
+            height: 580px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            transform-style: preserve-3d;
+            transition: all 12s;
+            background: url(../images/25.jpg);
+            background-size: 100% 100%;
+        }
+
+        div img {
+            position: absolute;
+        }
+
+        div img:nth-child(1) {
+            transform: translateZ(500px);
+        }
+
+        div img:nth-child(2) {
+            transform: rotateY(60deg) translateZ(500px);
+        }
+
+        div img:nth-child(3) {
+            transform: rotateY(120deg) translateZ(500px);
+        }
+
+        div img:nth-child(4) {
+            transform: rotateY(180deg) translateZ(500px);
+        }
+
+        div img:nth-child(5) {
+            transform: rotateY(240deg) translateZ(500px);
+        }
+
+        div img:nth-child(6) {
+            transform: rotateY(300deg) translateZ(500px);
+        }
+
+        div:hover {
+            transform: rotateY(720deg) rotateX(45deg);
+        }
+    </style>
+</head>
+<body bgcolor="#808080">
+<div>
+    <img src="images/15.jpg" alt=""/>
+    <img src="images/16.jpg" alt=""/>
+    <img src="images/17.jpg" alt=""/>
+    <img src="images/18.jpg" alt=""/>
+    <img src="images/19.jpg" alt=""/>
+    <img src="images/20.jpg" alt=""/>
+    <img src="images/21.jpg" alt=""/>
+</div>
+<a href="image4.html">
+    <button src="">下一页</button>
+</a>
+<audio src="../img/gaobaiqiqiu.mp3" autoplay="autoplay" loop="loop">
+
+</audio>
+</body>
+</html>
